@@ -1,0 +1,24 @@
+<!--pages/data/data.wxml-->
+<!-- 用户登录 -->
+<div class="user-image">
+  <image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/1605958020(1).png"></image>
+  
+</div>
+<view class="sign">
+  <input type="text" placeholder="请输入账号" class='user-id' bind:input="getUsername" />
+  <input type="password" placeholder="请输入密码" class='user-psd' bind:input="getPassword" />
+  <view class="mybutton">
+    <button bind:tap="loginClick" class="login">登录</button>
+    <button bind:tap="registerClick" class="register">新用户注册></button>
+  </view>
+  <view class="otherlogin">
+    <i class="left">-----------</i>
+    <span>其他方式登陆</span>
+    <i class="right">-----------</i>
+  </view>
+  <ul class="myimage">
+    <li><image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/QQ.png"></image><span>QQ</span></li>
+    <li><image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/微信.png"></image><span>微信</span></li>
+    <li><image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/微博.png"></image><span>微博</span></li>
+  </ul>
+</view>

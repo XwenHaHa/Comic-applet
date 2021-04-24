@@ -1,0 +1,71 @@
+<!--pages/recommended/recommended.wxml-->
+<view class="login-module">
+  <view class="avatar"></view>
+  <view class="text">
+    <p>未登录用户</p>
+    <p>登录后，将推荐你喜欢的海漫</p>
+  </view>
+<view class="btn" bindtap="gologin">去登录</view>
+</view>
+<view class="card-list">
+  <view class="card-item">
+    <h3 class="title">
+      <p>天下第四</p>
+      <view class="btn">关注</view>
+    </h3>
+    <view class="tabs">
+      <view class="tab">7月关注top10</view>
+      <view class="tab" style="color:black; background: #F4F5F9;">前天更新</view>
+    </view>
+    <view class="img-box">
+      <image src="https://manhua.acimg.cn/chp_cover/0/02_14_59_eb5ec73d6b41d029c8b41a52b798007a_1541141996605.jpg/272"></image>
+    </view>
+    <view class="update">
+      <view class="name">第1话 ROMANCE DAWN 冒险</view>
+      <p>
+        <image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/figer.png"></image>
+      </p>
+      <span>196万</span>
+    </view>
+  </view>
+  <view class="card-item">
+    <h3 class="title">
+      <p>SOSO菜</p>
+      <view class="btn">关注</view>
+    </h3>
+    <view class="tabs">
+      <view class="tab">周关注top1</view>
+      <view class="tab" style="color:black; background: #F4F5F9;">今天更新</view>
+    </view>
+    <view class="img-box">
+      <image src="https://manhua.acimg.cn/chp_cover/0/02_14_59_ca59e388b9826e838b7e6afea0adecd4_1541141996699.jpg/272"></image>
+    </view>
+    <view class="update">
+      <view class="name">第2话 戴草帽的路飞</view>
+      <p>
+        <image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/figer.png"></image>
+      </p>
+      <span>100万</span>
+    </view>
+  </view>
+  <view class="card-item">
+    <h3 class="title">
+      <p>菜WEN</p>
+      <view class="btn">关注</view>
+    </h3>
+    <view class="tabs">
+      <view class="tab">年关注top10</view>
+      <view class="tab" style="color:black; background: #F4F5F9;">昨天更新</view>
+    </view>
+    <view class="img-box">
+      <image src="https://manhua.acimg.cn/chp_cover/0/02_14_59_18e6141202b4b3a2cc162839fc1050e2_1541141996789.jpg/272"></image>
+    </view>
+    <view class="update">
+      <view class="name">第3话 “海盗猎人”佐罗出场</view>
+      <p>
+        <image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/figer.png"></image>
+      </p>
+      <span>107万</span>
+    </view>
+  </view>
+</view>

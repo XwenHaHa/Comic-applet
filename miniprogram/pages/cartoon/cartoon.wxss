@@ -1,0 +1,83 @@
+/* pages/cartoon/cartoon.wxss */
+.top {
+  display: flex;
+  width: 660rpx;
+  height: 70rpx;
+  margin: 20rpx auto 10rpx;
+  border-radius: 1.2rem;
+  background-color: #fff;
+}
+.top image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 300rpx;
+}
+.swp {
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 10rpx;
+}
+
+.swp image {
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.nav li {
+  width: 200rpx;
+  height: 100rpx;
+  box-shadow: 2px 3px 5px #cccccc;
+  background-image: url(https://static3w.kuaikanmanhua.com/static-kkfront-mobile/image/whiting_entry_bg.01f58a4.png);
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 0.9rem;
+  color: #666666;
+}
+.nav li image{
+  width: 1.3rem;
+  height: 1.3rem;
+  vertical-align: middle;
+}
+.nav li span{
+  display: inline-block;
+  width: 70rpx;
+  height: 50rpx;
+}
+.advertisement {
+  margin: 40rpx auto;
+  width: 650rpx;
+  height: 100rpx;
+  box-shadow: 2px 3px 5px #cccccc;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 100rpx;
+  color: #666666;
+}
+h4 {
+  margin-left: 28rpx;
+  width: 200rpx;
+  height: 50rpx;
+  font-size: 30rpx;
+  color: #666666;
+}
+.recommend {
+  margin-top: 10rpx;
+}
+.recommend li{
+  width: 200rpx;
+  height: 300rpx;
+  margin-bottom: 50rpx;
+}
+.recommend li image {
+  width: 100%;
+  height: 100%;
+}

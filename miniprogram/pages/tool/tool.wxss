@@ -1,0 +1,118 @@
+/* pages/tool/tool.wxss */
+.login-module {
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  display: flex;
+  align-items: center;
+  width: 20.55rem;
+  height: 2rem;
+  background-color: #ffffff;
+  color: #615355;
+}
+
+.login-module .avatar {
+  margin-right: 0.4rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  background-image: url(https://static3w.kuaikanmanhua.com/static-kkfront-mobile/image/avatar_placeholder.a9e53ee.png);
+  background-size: 100% 100%;
+}
+
+.login-module .text {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.login-module .btn {
+  width: 3.2rem;
+  height: 1.425rem;
+  margin-left: 140rpx;
+  line-height: 1.425rem;
+  text-align: center;
+  font-size: 0.6rem;
+  border-radius: 0.75rem;
+  background-color: #F7F9FA;
+  font-weight: bold;
+}
+
+.mymap {
+  width: 700rpx;
+  height: 600rpx;
+  margin: auto;
+  color: #090723;
+}
+
+.mymap text {
+  font-size: 0.8rem;
+}
+
+.mymap map {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #cccccc;
+}
+
+.tbutton {
+  width: 700rpx;
+  height: 300rpx;
+  margin: 100rpx auto;
+  /* background-color: skyblue; */
+}
+
+.tbutton text {
+  font-size: 0.8rem;
+}
+
+.tbutton ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tbutton ul li {
+  width: 200rpx;
+  height: 100rpx;
+  position: relative;
+  margin: 20rpx auto;
+  background-color: #fff;
+  border-radius: 10%;
+  /* background-color: pink; */
+}
+
+.tbutton ul li image {
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.tbutton ul li button {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #fff;
+}
+
+.wtcbuttom {
+  width: 100%;
+  height: 700rpx;
+  margin-top: 100rpx;
+}
+
+.video {
+  margin: auto;
+  width: 100%;
+  height: 300px;
+  border:1px solid #cccccc;
+}
+.video video{
+  width: 100%;
+  height: 100%;
+}

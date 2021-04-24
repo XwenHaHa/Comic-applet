@@ -1,0 +1,60 @@
+<!--pages/tool/tool.wxml-->
+<view class="login-module">
+  <view class="avatar"></view>
+  <view class="text">
+    <p>未登录用户</p>
+    <p>登录后，将可以使用所需工具</p>
+  </view>
+  <view class="btn"  bindtap="gologin">去登录</view>
+</view>
+<view class="mymap">
+  <text>查看地图</text>
+  <map name="map1" longitude="116.13097127893803" latitude="24.3365964334079" class="mymap">
+  </map>
+</view>
+<view class="tbutton">
+  <text>工具栏</text>
+  <camera device-position="back" flash="off" binderror="error"
+    style="width: 100%; height: 300px;border:1px solid #cccccc;"></camera>
+  <ul>
+    <li>
+      <button type="primary" bindtap="takePhoto">
+        <image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/ca.png"></image>
+      </button>
+    </li>
+    <li>
+      <button type="primary" bindtap="startRecord">
+        <image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/录像.png"></image>
+      </button>
+    </li>
+    <li>
+      <button type="primary" bindtap="stopRecord">
+        <image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/结束.png"></image>
+      </button>
+    </li>
+    <li>
+      <button>
+        <image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/扫码.png" bind:tap="scancode">
+        </image>
+      </button>
+    </li>
+    <li>
+      <button>
+        <image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/首页.png" bindtap="gohome"></image>
+      </button>
+    </li>
+    <li>
+      <button>
+        <image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/phone.png" bindtap="callphone"></image>
+      </button>
+    </li>
+  </ul>
+  <view class="wtcbuttom">
+    <text>图片预览处</text>
+    <image mode="widthFix" src="{{src}}" style="width: 100%; height: 300px;border:1px solid #cccccc;"></image>
+  </view>
+  <text>视频预览处</text>
+  <view class="video">
+    <video wx:if="{{videoSrc}}" src="{{videoSrc}}"></video>
+  </view>
+</view>

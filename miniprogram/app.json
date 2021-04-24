@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/data/data",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/cartoon/cartoon",
+    "pages/recommended/recommended",
+    "pages/personal/personal",
+    "pages/bookcase/bookcase",
+    "pages/tool/tool",
+    "pages/mybook/mybook"
+  ],
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [{
+        "pagePath": "pages/recommended/recommended",
+        "text": "推荐",
+        "iconPath": "images/推荐.png",
+        "selectedIconPath": "images/推荐1.png"
+      },
+      {
+        "pagePath": "pages/cartoon/cartoon",
+        "text": "发现",
+        "iconPath": "images/发现.png",
+        "selectedIconPath": "images/发现1.png"
+      },
+      {
+        "pagePath": "pages/tool/tool",
+        "text": "工具",
+        "iconPath": "images/工具.png",
+        "selectedIconPath": "images/工具1.png"
+      },
+      {
+        "pagePath": "pages/mybook/mybook",
+        "text": "书架",
+        "iconPath": "images/书架.png",  
+        "selectedIconPath": "images/书架1.png"
+      },
+      {
+        "pagePath": "pages/bookcase/bookcase",
+        "text": "个人",
+        "iconPath": "images/人物.png",
+        "selectedIconPath": "images/人物1.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "漫点看",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

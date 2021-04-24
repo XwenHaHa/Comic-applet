@@ -1,0 +1,61 @@
+<!--pages/cartoon/cartoon.wxml-->
+<view class="top">
+  <input type="text" placeholder="请输入你需要查找的内容:" />
+  <image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/搜索.png"><button></button></image>
+</view>
+<swiper autoplay="true" interval="2000" circular="true" indicator-dots="true" indicator-active-color='orange'
+  duration="100" class="swp">
+  <swiper-item wx:for="{{srcArr}}">
+    <image src="{{item}}"></image>
+  </swiper-item>
+</swiper>
+<ul class="nav">
+  <li>
+    <image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/分类.png"></image>
+    <span>分类</span>
+  </li>
+  <li>
+    <image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/排行.png"></image>
+    <span>排行</span>
+  </li>
+  <li>
+    <image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/心.png"></image>
+    <span>福利</span>
+  </li>
+</ul>
+<div class="advertisement">
+  全场免费看三天
+</div>
+<h4>为你推荐</h4>
+<ul class="recommend nav">
+  <li>
+    <image src="https://manhua.acimg.cn/manhua_detail/0/30_15_03_ade0e881e1c0b07c55eb7d41573edede3_11977442.jpg/800">
+    </image>
+  </li>
+  <li>
+    <image src="https://manhua.acimg.cn/manhua_detail/0/30_21_40_a4af0390f2604f8de1c67fe5d731a0b3c_50010168.jpg/800">
+    </image>
+  </li>
+  <li>
+    <image src="https://manhua.acimg.cn/manhua_detail/0/30_21_46_a5b8c8f1b8b9f9e0c5502fddad1110bea_66718590.jpg/800">
+    </image>
+  </li>
+  <li>
+    <image src="https://manhua.acimg.cn/manhua_detail/0/30_21_51_a48368186e39fdf6e988634e175e9b89e_62693104.jpg/800"></image>
+  </li>
+  <li>
+    <image src="https://manhua.acimg.cn/manhua_detail/0/30_22_03_a0a96927d189654bbab65a8d3bb7bc00b_18479623.jpg/800"></image>
+  </li>
+  <li>
+    <image src="https://manhua.acimg.cn/manhua_detail/0/30_22_09_ac6635afed50ea6dc4df4553a3c901003_75055298.jpg/800"></image>
+  </li>
+  <li>
+    <image src="https://manhua.acimg.cn/manhua_detail/0/30_22_23_a466809155b23c11839cc61ae0c8e01ab_44002717.jpg/800"></image>
+  </li>
+  <li>
+    <image src="https://manhua.acimg.cn/manhua_detail/0/30_22_51_aa782cd3871dc95a1c6a585ca86467cb4_84289616.jpg/800"></image>
+  </li>
+  <li>
+    <image src="https://manhua.acimg.cn/manhua_detail/0/02_23_04_a15f000caf238c4fdb9d89bc1979761ed_85687585.jpg/800"></image>
+  </li>
+</ul>

@@ -1,0 +1,15 @@
+<!--pages/personal/personal.wxml-->
+<div class="user-image">
+  <image src="cloud://manhua-6gzdgw9udfcf0adc.6d61-manhua-6gzdgw9udfcf0adc-1304709008/1605958020(1).png"></image>
+
+</div>
+<view class="sign">
+  <input type="text" placeholder="请输入您的用户名:" class='user-id' bind:input="getUsername" value="{{username}}" />
+  <input type="text" placeholder="请输入您的年龄:" class='user-age' bind:input="getAge" value="{{userage}}" />
+  <input type="text" placeholder="请输入密码:" class='user-psd' bind:input="getPassword" value="{{password}}" />
+  <input type="password" placeholder="再次确认密码:" class='user-npsd' bind:input="getAgainword" value="{{againword}}" />
+  <view class="mybutton">
+    <button bind:tap="registerClick" class="register">注册</button>
+    <button bind:tap="resetClick" class="reset">重置</button>
+  </view>
+</view>

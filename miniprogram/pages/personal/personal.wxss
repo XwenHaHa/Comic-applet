@@ -1,0 +1,85 @@
+/* pages/personal/personal.wxss */ 
+.user-image {
+  display: flex;
+  position: relative;
+  top: 50rpx;
+  left: 320rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border: 1rpx solid #cccccc;
+  border-radius: 5%;
+}
+
+.user-image image {
+  width: 100%;
+  height: 100%;
+}
+
+.sign {
+  display: flex;
+  position: relative;
+  width: 700rpx;
+  height: 1200rpx;
+  margin: 70rpx auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1rpx solid #cccccc;
+  box-shadow: 1rpx 0 10rpx #cccccc;
+  border-radius: 5%;
+}
+
+.sign input {
+  width: 500rpx;
+  height: 90rpx;
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+}
+
+.sign .user-id {
+  position: absolute;
+  top: 150rpx;
+  left: 100rpx;
+}
+
+.sign .user-age {
+  position: absolute;
+  top: 300rpx;
+  left: 100rpx;
+}
+
+.sign .user-psd {
+  position: absolute;
+  top: 450rpx;
+  left: 100rpx;
+}
+
+.sign .user-npsd {
+  position: absolute;
+  top: 600rpx;
+  left: 100rpx;
+}
+
+.sign .mybutton {
+  position: absolute;
+  top: 750rpx;
+  left: 100rpx;
+  overflow: hidden;
+}
+
+.sign .mybutton button {
+  width: 500rpx;
+  height: 70rpx;
+  border-radius: 1rem;
+  margin:auto;
+  color: #C0BB98;
+  font-size: 0.8rem;
+}
+
+.sign .mybutton .register {
+  background-color: #FEF6C4;
+  margin-bottom: 50rpx;
+}
+.sign .mybutton .reset {
+  background-color: #FEF6C4;
+}

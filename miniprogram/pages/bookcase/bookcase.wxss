@@ -1,0 +1,133 @@
+/* pages/bookcase/bookcase.wxss */
+.usertop {
+  width: 100%;
+  height: 300rpx;
+  position: relative;
+  background-color: #FFDD30;
+}
+
+.usermiddle {
+  display: flex;
+  width: 500rpx;
+  height: 150rpx;
+  position: absolute;
+  top: 50rpx;
+  left: 150rpx;
+}
+
+.usermiddle .photo {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+
+.usermiddle .photo image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.usermiddle .name {
+  width: 300rpx;
+  height: 100rpx;
+  margin: 20rpx;
+  font-size: 50rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.partcontent {
+  display: flex;
+  width: 600rpx;
+  height: 100rpx;
+  position: absolute;
+  top: 250rpx;
+  left: 70rpx;
+  background-color: #fff;
+  border-radius: 0.325rem;
+}
+.partcontent .item{
+  position: relative;
+  top: 30rpx;
+  display: inline-block;
+  width: 50%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+}
+.partcontent .item i{
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.1rem;
+  vertical-align: top;
+}
+.partcontent .icon-left {
+  background-image: url(https://static3w.kuaikanmanhua.com/static-kkfront-mobile/image/kkb.4119d97.png);
+  background-size: 100%;
+}
+.partcontent .icon-right{
+  background-image: url(https://static3w.kuaikanmanhua.com/static-kkfront-mobile/image/vip.d0a19d8.png);
+  background-size: 100%;
+}
+.active-item{
+  width: 670rpx;
+  /* height: 500rpx; */
+  margin: 100rpx auto 50rpx;
+  /* background-color: orange; */
+  color: #615355;
+  border-top: 1px solid #cccccc;
+}
+.active-item h4,.focus h4{
+  margin-left: 285rpx;
+}
+.active-item .history{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.active-item .history li{
+  width: 200rpx;
+  height: 300rpx;
+  margin: 10rpx auto;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  border-radius: 5%;
+}
+.active-item .history li image{
+  width: 200rpx;
+  height: 250rpx;
+}
+.active-item .history li p{
+  margin-left: 60rpx;
+}
+.focus{
+  width: 670rpx;
+  height: 200rpx;
+  margin: 10rpx auto;
+  background-color: #fff;
+  color: #615355;
+  /* border-top: 1px solid #cccccc; */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+}
+.focus ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.focus ul li{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 10rpx auto;
+  /* background-color: pink; */
+  border-radius: 50%;
+}
+.focus ul li image{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.focus ul li p{
+  display: block;
+  width: 200rpx;
+}
